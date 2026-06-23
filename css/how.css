@@ -1,0 +1,10 @@
+/* HOW */
+#how { padding-block: clamp(80px, 12vw, 140px); background: rgba(42,26,12,0.03); border-radius: 40px; margin-inline: clamp(16px, 3vw, 40px); }
+#how .container { max-width: 880px; }
+.steps { display: flex; flex-direction: column; gap: 0; position: relative; }
+.steps::before { content: ''; position: absolute; left: 27px; top: 36px; bottom: 36px; width: 1px; background: var(--ink-12); }
+.step { display: grid; grid-template-columns: 56px 1fr; gap: 28px; align-items: flex-start; padding-block: 32px; }
+.step:not(:last-child) { border-bottom: 1px solid var(--ink-12); }
+.step-num { width: 56px; height: 56px; border-radius: 50%; background: var(--bg); border: 1.5px solid var(--ink-12); display: flex; align-items: center; justify-content: center; font-family: 'Fraunces', serif; font-size: 20px; font-weight: 400; color: var(--tomato); flex-shrink: 0; position: relative; z-index: 1; box-shadow: var(--shadow); }
+.step-content h3 { font-family: 'Fraunces', serif; font-size: clamp(20px, 2.5vw, 26px); font-weight: 400; margin-bottom: 8px; padding-top: 12px; }
+.step-content p { font-size: 16px; line-height: 1.65; color: var(--ink-60); }

@@ -1,0 +1,11 @@
+{
+  "name": "trygg-tallrik-landing-page",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "optimize:icons": "svgo -f assets/icons -o assets/icons"
+  },
+  "devDependencies": {
+    "svgo": "^3.0.0"
+  }
+}

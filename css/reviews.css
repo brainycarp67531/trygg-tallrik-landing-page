@@ -1,0 +1,18 @@
+/* REVIEWS */
+#reviews { padding-block: clamp(80px, 12vw, 140px); }
+.review-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.review-card { background: #fff; border-radius: var(--r-card); padding: clamp(24px, 3vw, 36px); box-shadow: var(--shadow); display: flex; flex-direction: column; gap: 20px; }
+.review-stars { display: flex; gap: 3px; }
+.review-stars span { color: var(--mustard); font-size: 16px; }
+.review-text { font-size: 16px; line-height: 1.7; color: var(--ink); font-style: italic; flex: 1; }
+.review-author { display: flex; align-items: center; gap: 12px; }
+.author-avatar { width: 40px; height: 40px; border-radius: 50%; flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-family: 'DM Sans', sans-serif; font-size: 14px; font-weight: 500; color: #fff; }
+.av-1 { background: var(--tomato); }
+.av-2 { background: var(--sage); }
+.av-3 { background: var(--plum); }
+.author-name { font-family: 'DM Sans', sans-serif; font-size: 14px; font-weight: 500; color: var(--ink); }
+.author-meta { font-size: 12px; color: var(--ink-60); margin-top: 2px; }
+.allergy-tag { display: inline-block; font-family: 'DM Sans', sans-serif; font-size: 10px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; padding: 3px 9px; border-radius: 99px; margin-top: 4px; }
+.tag-gluten  { background: rgba(240,183,58,0.18); color: #8A6510; }
+.tag-laktos  { background: rgba(138,163,111,0.18); color: #4A6A2A; }
+.tag-notter  { background: rgba(125,58,90,0.15); color: var(--plum); }

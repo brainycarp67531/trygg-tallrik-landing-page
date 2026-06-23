@@ -1,0 +1,23 @@
+/* RESPONSIVE & MOTION */
+@media (max-width: 900px) {
+  .hero-inner { grid-template-columns: 1fr; }
+  .hero-phone { display: none; }
+  .feature-grid { grid-template-columns: 1fr; }
+  .review-grid { grid-template-columns: 1fr; }
+  .steps::before { display: none; }
+  .step { grid-template-columns: 44px 1fr; gap: 16px; }
+  .step-num { width: 44px; height: 44px; font-size: 17px; }
+}
+@media (max-width: 600px) {
+  .nav-cta { display: none; }
+  .hero-actions { flex-direction: column; }
+  .hero-actions .btn { justify-content: center; }
+  .cta-actions { flex-direction: column; align-items: center; }
+  .footer-inner { flex-direction: column; align-items: flex-start; }
+  .footer-right { text-align: left; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .feature-card, .review-card, .step { transition: transform 0.22s ease; }
+  .feature-card:hover { transform: translateY(-4px); }
+  .review-card:hover  { transform: translateY(-4px); }
+}
