@@ -1,0 +1,15 @@
+:root {
+  --bg:       #FFF3DE;
+  --ink:      #2A1A0C;
+  --ink-60:   rgba(42,26,12,0.6);
+  --ink-12:   rgba(42,26,12,0.12);
+  --tomato:   #E6502A;
+  --mustard:  #F0B73A;
+  --sage:     #8AA36F;
+  --plum:     #7D3A5A;
+  --dark:     #2A1A0C;
+
+  --r-pill: 999px;
+  --r-card: 24px;
+  --shadow: 0 4px 24px var(--ink-12);
+}
