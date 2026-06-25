@@ -32,6 +32,49 @@ a { color: inherit; text-decoration: none; }
 }
 .logo-pill .star { color: var(--mustard); font-size: 13px; }
 
+.brand-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.875rem;
+  color: inherit;
+}
+.brand-logo__mark {
+  width: var(--brand-logo-size, 48px);
+  height: var(--brand-logo-size, 48px);
+  flex: 0 0 auto;
+  background: #8AA36F;
+  border-radius: 22%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(-4deg);
+  box-shadow: 0 4px 0 rgba(42,26,12,.16);
+}
+.brand-logo__mark svg {
+  width: 66%;
+  height: 66%;
+}
+.brand-logo__wordmark {
+  font-family: 'Fraunces', serif;
+  font-weight: 500;
+  font-size: calc(var(--brand-logo-size, 48px) / 2);
+  letter-spacing: -0.8px;
+  color: #2A1A0C;
+}
+.brand-logo__wordmark em {
+  font-style: italic;
+  color: #5F7A48;
+}
+.brand-logo--small { --brand-logo-size: 38px; }
+.brand-logo--tiny {
+  --brand-logo-size: 28px;
+  gap: 0.5rem;
+}
+.brand-logo--dark .brand-logo__wordmark { color: #fff3de; }
+.brand-logo--dark .brand-logo__wordmark em { color: #f0b73a; }
+.brand-logo svg { --brand-stroke: #fff3de; --brand-check: #ffffff; }
+.brand-logo--dark svg { --brand-stroke: #f0b73a; --brand-check: #f0b73a; }
+
 header {
   position: sticky;
   top: 0;

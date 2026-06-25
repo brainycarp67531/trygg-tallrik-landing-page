@@ -29,9 +29,18 @@
 <!-- ── NAV ─────────────────────────────────────────────── -->
 <header>
   <nav class="container">
-    <a href="/" class="logo-pill" aria-label="Trygg Tallrik — startsida">
-      <span class="star" aria-hidden="true">✦</span>
-      Trygg Tallrik
+    <a href="/" class="brand-logo" aria-label="Trygg Tallrik — startsida">
+      <span class="brand-logo__mark" aria-hidden="true">
+        <svg viewBox="0 0 64 64" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="var(--brand-stroke)">
+          <path d="M6 14v8M9 14v8M12 14v8" stroke-width="1.8" opacity="0.73" />
+          <path d="M9 22v28" stroke-width="2.6" opacity="0.73" />
+          <path d="M55 14c3.1 1 4.7 4.4 4.7 9s-1.6 8-4.7 8z" fill="var(--brand-stroke)" opacity="0.73" />
+          <path d="M55 31v19" stroke-width="2.6" opacity="0.73" />
+          <circle cx="32" cy="32" r="15" stroke-width="3" opacity="0.55" />
+          <path class="check" d="M25 33l4.5 4.5L40 25" stroke="var(--brand-check)" stroke-width="5" />
+        </svg>
+      </span>
+      <span class="brand-logo__wordmark">Trygg <em>Tallrik</em></span>
     </a>
     <div class="nav-cta">
       <a href="#cta" class="btn btn-primary" aria-label="Ladda ner appen">Ladda ner appen</a>
@@ -46,7 +55,6 @@
     <div class="hero-inner">
 
       <div class="hero-text">
-        <span class="hero-eyebrow" aria-hidden="true">✦ Ny app</span>
         <h1>Ät ute,<br><em>tryggt.</em></h1>
         <p class="hero-sub">
           Trygg Tallrik hjälper dig hitta restauranger som tar dina allergier på allvar — ärligt rapporterat av restauranggästerna själv.
@@ -56,7 +64,7 @@
             <img src="assets/icons/hero-ios.svg" width="16" height="16" alt="" aria-hidden="true">
             Ladda ner för iOS
           </a>
-          <a href="#cta" class="btn btn-secondary" role="button">
+          <a href="#cta" class="btn btn-android" role="button">
             <img src="assets/icons/hero-android.svg" width="16" height="16" alt="" aria-hidden="true">
             Ladda ner för Android
           </a>
@@ -67,7 +75,19 @@
         <div class="phone-frame" role="img" aria-label="Skärmbild av Trygg Tallrik-appen som visar restauranglistning med allergibetyg">
           <div class="phone-screen">
               <div class="phone-topbar">
-              <span class="phone-logo"><span>✦</span> Trygg Tallrik</span>
+              <span class="brand-logo brand-logo--tiny" aria-hidden="true">
+                <span class="brand-logo__mark">
+                  <svg viewBox="0 0 64 64" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="var(--brand-stroke)">
+                    <path d="M6 14v8M9 14v8M12 14v8" stroke-width="1.8" opacity="0.73" />
+                    <path d="M9 22v28" stroke-width="2.6" opacity="0.73" />
+                    <path d="M55 14c3.1 1 4.7 4.4 4.7 9s-1.6 8-4.7 8z" fill="var(--brand-stroke)" opacity="0.73" />
+                    <path d="M55 31v19" stroke-width="2.6" opacity="0.73" />
+                    <circle cx="32" cy="32" r="15" stroke-width="3" opacity="0.55" />
+                    <path class="check" d="M25 33l4.5 4.5L40 25" stroke="var(--brand-check)" stroke-width="5" />
+                  </svg>
+                </span>
+                <span class="brand-logo__wordmark">Trygg <em>Tallrik</em></span>
+              </span>
               <img src="assets/icons/phone-top.svg" width="16" height="16" alt="" aria-hidden="true">
             </div>
             <div class="phone-search">🔍 &nbsp; Sök restaurang eller maträtt&hellip;</div>
@@ -273,9 +293,18 @@
   <div class="container">
     <div class="footer-inner">
       <div class="footer-left">
-        <a href="/" class="logo-pill" aria-label="Trygg Tallrik">
-          <span class="star" aria-hidden="true">✦</span>
-          Trygg Tallrik
+        <a href="/" class="brand-logo" aria-label="Trygg Tallrik">
+          <span class="brand-logo__mark" aria-hidden="true">
+            <svg viewBox="0 0 64 64" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="var(--brand-stroke)">
+              <path d="M6 14v8M9 14v8M12 14v8" stroke-width="1.8" opacity="0.73" />
+              <path d="M9 22v28" stroke-width="2.6" opacity="0.73" />
+              <path d="M55 14c3.1 1 4.7 4.4 4.7 9s-1.6 8-4.7 8z" fill="var(--brand-stroke)" opacity="0.73" />
+              <path d="M55 31v19" stroke-width="2.6" opacity="0.73" />
+              <circle cx="32" cy="32" r="15" stroke-width="3" opacity="0.55" />
+              <path class="check" d="M25 33l4.5 4.5L40 25" stroke="var(--brand-check)" stroke-width="5" />
+            </svg>
+          </span>
+          <span class="brand-logo__wordmark">Trygg <em>Tallrik</em></span>
         </a>
         <span class="footer-tagline">— gjort i Sverige · ärlig mat —</span>
       </div>

@@ -31,7 +31,7 @@ h1 {
   color: var(--ink);
   margin-bottom: 24px;
 }
-h1 em { font-style: italic; color: var(--tomato); }
+h1 em { font-style: italic; color: var(--sage); }
 .hero-sub { font-size: clamp(16px, 2vw, 19px); line-height: 1.65; color: var(--ink-60); max-width: 440px; margin-bottom: 40px; }
 .hero-actions { display: flex; gap: 12px; flex-wrap: wrap; }
 
@@ -39,8 +39,8 @@ h1 em { font-style: italic; color: var(--tomato); }
 .hero-phone { display: flex; justify-content: center; align-items: flex-end; }
 .phone-frame { position: relative; width: min(280px, 100%); aspect-ratio: 9/19; background: var(--dark); border-radius: 40px; padding: 12px; box-shadow: 0 40px 80px rgba(42,26,12,0.28), 0 2px 0 rgba(255,255,255,0.12) inset; transform: translateY(0); }
 .phone-screen { width: 100%; height: 100%; border-radius: 30px; background: linear-gradient(160deg, #FFF3DE 0%, #FFDDB2 100%); overflow: hidden; position: relative; }
-.phone-topbar { background: var(--dark); padding: 14px 16px 12px; display: flex; align-items: center; justify-content: space-between; }
-.phone-logo { color: #fff; font-family: 'DM Sans',sans-serif; font-size: 11px; font-weight: 500; letter-spacing: 0.05em; }
+.phone-topbar { background: var(--bg); padding: 14px 16px 12px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid rgba(42,26,12,0.12); }
+.phone-logo { color: var(--ink); font-family: 'DM Sans',sans-serif; font-size: 11px; font-weight: 500; letter-spacing: 0.05em; }
 .phone-logo span { color: var(--mustard); }
 .phone-search { background: rgba(255,243,222,0.12); border-radius: 10px; margin: 10px; padding: 10px 12px; font-family: 'DM Sans', sans-serif; font-size: 10px; color: rgba(255,255,255,0.45); border: 1px solid rgba(255,255,255,0.1); }
 .phone-card-area { padding: 6px 10px; display: flex; flex-direction: column; gap: 7px; }

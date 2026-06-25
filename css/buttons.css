@@ -15,8 +15,9 @@
 }
 .btn:hover { transform: translateY(-2px); box-shadow: 0 8px 28px var(--ink-12); }
 .btn:active { transform: translateY(0); }
-.btn-primary { background: var(--tomato); color: #fff; }
-.btn-secondary { background: var(--dark); color: #fff; }
+.btn-primary { background: var(--sage); color: #fff; }
+.btn-secondary { background: #5F7A48; color: #fff; }
+.btn-android { background: var(--plum); color: #fff; }
 .btn-light { background: #fff; color: var(--ink); }
 .btn-light-outline {
   background: transparent;
