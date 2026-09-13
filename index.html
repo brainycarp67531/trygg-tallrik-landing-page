@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/buttons.css">
   <link rel="stylesheet" href="css/hero.css">
+  <link rel="stylesheet" href="css/app-tour.css">
   <link rel="stylesheet" href="css/features.css">
   <link rel="stylesheet" href="css/how.css">
   <link rel="stylesheet" href="css/reviews.css">
@@ -71,63 +72,60 @@
         </div>
       </div>
 
-      <div class="hero-phone" aria-hidden="true">
-        <div class="phone-frame" role="img" aria-label="Skärmbild av Trygg Tallrik-appen som visar restauranglistning med allergibetyg">
+      <div class="hero-phone">
+        <div class="phone-frame">
           <div class="phone-screen">
-              <div class="phone-topbar">
-              <span class="brand-logo brand-logo--tiny" aria-hidden="true">
-                <span class="brand-logo__mark">
-                  <svg viewBox="0 0 64 64" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="var(--brand-stroke)">
-                    <path d="M6 14v8M9 14v8M12 14v8" stroke-width="1.8" opacity="0.73" />
-                    <path d="M9 22v28" stroke-width="2.6" opacity="0.73" />
-                    <path d="M55 14c3.1 1 4.7 4.4 4.7 9s-1.6 8-4.7 8z" fill="var(--brand-stroke)" opacity="0.73" />
-                    <path d="M55 31v19" stroke-width="2.6" opacity="0.73" />
-                    <circle cx="32" cy="32" r="15" stroke-width="3" opacity="0.55" />
-                    <path class="check" d="M25 33l4.5 4.5L40 25" stroke="var(--brand-check)" stroke-width="5" />
-                  </svg>
-                </span>
-                <span class="brand-logo__wordmark">Trygg <em>Tallrik</em></span>
-              </span>
-              <img src="assets/icons/phone-top.svg" width="16" height="16" alt="" aria-hidden="true">
-            </div>
-            <div class="phone-search">🔍 &nbsp; Sök restaurang eller maträtt&hellip;</div>
-            <div class="phone-card-area">
-                <div class="phone-card">
-                <div class="phone-card-icon">🍕</div>
-                <div class="phone-card-info">
-                  <div class="phone-card-name">Pizzeria Sole</div>
-                  <div class="phone-card-meta">290 m · Glutenfri deg finns</div>
-                </div>
-                <span class="phone-badge badge-good">Bra</span>
-              </div>
-              <div class="phone-card">
-                <div class="phone-card-icon">🥗</div>
-                <div class="phone-card-info">
-                  <div class="phone-card-name">Gröna Köket</div>
-                  <div class="phone-card-meta">440 m · Nötfritt alternativ</div>
-                </div>
-                <span class="phone-badge badge-good">Bra</span>
-              </div>
-              <div class="phone-card">
-                <div class="phone-card-icon">🍜</div>
-                <div class="phone-card-info">
-                  <div class="phone-card-name">Asiatiska Hörnet</div>
-                  <div class="phone-card-meta">610 m · Laktosfria rätter</div>
-                </div>
-                <span class="phone-badge badge-ok">OK</span>
-              </div>
-              <div class="phone-card">
-                <div class="phone-card-icon">🥩</div>
-                <div class="phone-card-info">
-                  <div class="phone-card-name">Bistro Lindgren</div>
-                  <div class="phone-card-meta">820 m · Se meny</div>
-                </div>
-                <span class="phone-badge badge-good">Bra</span>
-              </div>
-            </div>
+            <img src="assets/images/screen-home.png" alt="Skärmbild av Trygg Tallrik-appens startskärm med genvägar för att söka restaurang, lämna recension, se tidigare recensioner och hantera allergiprofil" width="720" height="1429" loading="eager">
           </div>
         </div>
       </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── APP TOUR ─────────────────────────────────────────── -->
+<section id="app-tour" aria-labelledby="app-tour-heading">
+  <div class="container">
+    <span class="section-label" aria-hidden="true">En titt i appen</span>
+    <h2 id="app-tour-heading">Trygghet i varje skärm</h2>
+    <div class="tour-grid">
+
+      <figure class="tour-item">
+        <div class="phone-frame tour-phone">
+          <div class="phone-screen">
+            <img src="assets/images/screen-search-map.png" alt="Skärmbild: sök restauranger på karta med markerade platser" width="720" height="1429" loading="lazy">
+          </div>
+        </div>
+        <figcaption>Sök nära dig, på karta eller i lista</figcaption>
+      </figure>
+
+      <figure class="tour-item">
+        <div class="phone-frame tour-phone">
+          <div class="phone-screen">
+            <img src="assets/images/screen-allergies.png" alt="Skärmbild: profilsida där användaren väljer sina allergier och intoleranser" width="720" height="1429" loading="lazy">
+          </div>
+        </div>
+        <figcaption>Ställ in din allergiprofil</figcaption>
+      </figure>
+
+      <figure class="tour-item">
+        <div class="phone-frame tour-phone">
+          <div class="phone-screen">
+            <img src="assets/images/screen-review-form.png" alt="Skärmbild: formulär för att lämna betyg och recension av en restaurang" width="720" height="1429" loading="lazy">
+          </div>
+        </div>
+        <figcaption>Lämna en ärlig recension</figcaption>
+      </figure>
+
+      <figure class="tour-item">
+        <div class="phone-frame tour-phone">
+          <div class="phone-screen">
+            <img src="assets/images/screen-my-reviews.png" alt="Skärmbild: lista över användarens tidigare recensioner" width="720" height="1429" loading="lazy">
+          </div>
+        </div>
+        <figcaption>Håll koll på dina recensioner</figcaption>
+      </figure>
 
     </div>
   </div>

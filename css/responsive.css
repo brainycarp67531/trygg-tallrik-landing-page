@@ -7,6 +7,18 @@
   .steps::before { display: none; }
   .step { grid-template-columns: 44px 1fr; gap: 16px; }
   .step-num { width: 44px; height: 44px; font-size: 17px; }
+  .tour-grid {
+    grid-template-columns: none;
+    grid-auto-flow: column;
+    grid-auto-columns: min(62vw, 220px);
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 8px;
+    margin-inline: calc(-1 * clamp(20px, 5vw, 80px));
+    padding-inline: clamp(20px, 5vw, 80px);
+  }
+  .tour-item { scroll-snap-align: start; }
+  .tour-phone { max-width: none; }
 }
 @media (max-width: 600px) {
   .nav-cta { display: none; }

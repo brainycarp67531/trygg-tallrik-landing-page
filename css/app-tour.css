@@ -1,0 +1,16 @@
+/* APP TOUR */
+#app-tour { padding-block: clamp(60px, 10vw, 100px); }
+.tour-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+.tour-item { display: flex; flex-direction: column; align-items: center; gap: 18px; }
+.tour-phone { width: 100%; max-width: 200px; }
+.tour-item figcaption {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  color: var(--ink-60);
+  text-align: center;
+  line-height: 1.5;
+}
