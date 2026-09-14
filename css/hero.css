@@ -13,14 +13,34 @@
 }
 .hero-text { padding-bottom: clamp(60px, 8vw, 100px); }
 .hero-eyebrow {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   font-family: 'DM Sans', sans-serif;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 500;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--tomato);
+  background: rgba(230,80,42,0.1);
+  border-radius: var(--r-pill);
+  padding: 8px 16px;
   margin-bottom: 24px;
+}
+.hero-eyebrow::before {
+  content: '';
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--tomato);
+  flex-shrink: 0;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .hero-eyebrow::before { animation: pulse-dot 1.8s ease-in-out infinite; }
+}
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.4; transform: scale(0.8); }
 }
 h1 {
   font-family: 'Fraunces', serif;

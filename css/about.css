@@ -1,0 +1,10 @@
+/* ABOUT */
+#about { padding-block: clamp(80px, 12vw, 140px); }
+#about .container { max-width: 880px; }
+.about-lead { font-size: clamp(18px, 2.2vw, 22px); line-height: 1.65; color: var(--ink); max-width: 680px; margin-bottom: 20px; }
+.about-body { font-size: 16px; line-height: 1.75; color: var(--ink-60); max-width: 640px; margin-bottom: 16px; }
+.about-values { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 48px; }
+.about-value { padding: 28px; border-radius: var(--r-card); background: rgba(42,26,12,0.03); }
+.about-value .value-icon { font-family: 'Fraunces', serif; font-size: 28px; color: var(--sage); margin-bottom: 14px; display: block; }
+.about-value h3 { font-family: 'Fraunces', serif; font-size: 19px; font-weight: 500; margin-bottom: 8px; }
+.about-value p { font-size: 14px; line-height: 1.6; color: var(--ink-60); }

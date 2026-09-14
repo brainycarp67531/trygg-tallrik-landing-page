@@ -1,30 +1,29 @@
 Marknadsföring/landningssida
-
-Hero med vad appen gör och vem den är för (allergivänliga restaurangbetyg)
-Skärmdumpar eller en kort demo/video av appen
-Nedladdningsknappar (App Store, ev. Google Play)
-Kort "hur det fungerar"-sektion
-Eventuella omdömen/pressomnämnanden om ni har några
-Juridiskt/compliance
+- Hero med vad appen gör och vem den är för (allergivänliga restaurangbetyg)
+- Skärmdumpar eller en kort demo/video av appen
+- Nedladdningsknappar (App Store, ev. Google Play)
+- Kort "hur det fungerar"-sektion
+- Eventuella omdömen/pressomnämnanden om ni har några
+- Juridiskt/compliance
 
 Integritetspolicy
-Användarvillkor (EULA)
-Cookie-/samtyckesbanner om ni använder analytics eller spårning på hemsidan (GDPR)
-Prenumerationsvillkor i klartext (pris, längd, auto-förnyelse, uppsägning)
-Support & förtroende
+- Användarvillkor (EULA)
+- Cookie-/samtyckesbanner om ni använder analytics eller spårning på hemsidan (GDPR)
+- Prenumerationsvillkor i klartext (pris, längd, auto-förnyelse, uppsägning)
+- Support & förtroende
 
 Kontaktväg (mail, formulär)
-FAQ — särskilt allergi-relaterade frågor ("hur verifieras betygen?", "vad gör vi om en restaurang har fel info?")
-Om oss / varför appen finns — särskilt relevant för en allergiapp där förtroende är centralt
+- FAQ — särskilt allergi-relaterade frågor ("hur verifieras betygen?", "vad gör vi om en restaurang har fel info?")
+- Om oss / varför appen finns — särskilt relevant för en allergiapp där förtroende är centralt
+
 Teknik/SEO-grunder
+- Responsiv design (fungerar på mobil — troligen där de flesta besökare landar från App Store-länken)
+- Grundläggande SEO: <title>, meta description, Open Graph-taggar för delning i sociala medier
+- Favicon
+- Snabb laddningstid
+- HTTPS (bör vara standard hos de flesta hosting-lösningar)
 
-Responsiv design (fungerar på mobil — troligen där de flesta besökare landar från App Store-länken)
-Grundläggande SEO: <title>, meta description, Open Graph-taggar för delning i sociala medier
-Favicon
-Snabb laddningstid
-HTTPS (bör vara standard hos de flesta hosting-lösningar)
-Valfritt men vanligt
-
-Blogg/nyheter om ni vill bygga SEO och räckvidd över tid
-Pressrum om ni siktar på mediebevakning
-Statusssida om ni vill vara transparenta vid driftstörningar (troligen överkurs i det här läget)
+Valfritt men vanligt (väntar med detta)
+- Blogg/nyheter om ni vill bygga SEO och räckvidd över tid
+- Pressrum om ni siktar på mediebevakning
+- Statusssida om ni vill vara transparenta vid driftstörningar (troligen överkurs i det här läget)

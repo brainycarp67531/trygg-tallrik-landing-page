@@ -9,6 +9,15 @@
   <meta property="og:description" content="Hitta restauranger som tar dina allergier på allvar. Äkta betyg från riktiga gäster." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://tryggtallrik.se" />
+  <meta property="og:image" content="https://tryggtallrik.se/assets/images/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="sv_SE" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Trygg Tallrik — Ät ute, tryggt." />
+  <meta name="twitter:description" content="Hitta restauranger som tar dina allergier på allvar. Äkta betyg från riktiga gäster." />
+  <meta name="twitter:image" content="https://tryggtallrik.se/assets/images/og-image.png" />
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,6 +29,8 @@
   <link rel="stylesheet" href="css/app-tour.css">
   <link rel="stylesheet" href="css/features.css">
   <link rel="stylesheet" href="css/how.css">
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/faq.css">
   <link rel="stylesheet" href="css/reviews.css">
   <link rel="stylesheet" href="css/cta.css">
   <link rel="stylesheet" href="css/responsive.css">
@@ -43,6 +54,11 @@
       </span>
       <span class="brand-logo__wordmark">Trygg <em>Tallrik</em></span>
     </a>
+    <ul class="nav-links">
+      <li><a href="#how">Så funkar det</a></li>
+      <li><a href="#faq">Vanliga frågor</a></li>
+      <li><a href="#about">Om oss</a></li>
+    </ul>
     <div class="nav-cta">
       <a href="#cta" class="btn btn-primary" aria-label="Ladda ner appen">Ladda ner appen</a>
     </div>
@@ -56,6 +72,7 @@
     <div class="hero-inner">
 
       <div class="hero-text">
+        <span class="hero-eyebrow">Lanseras snart</span>
         <h1>Ät ute,<br><em>tryggt.</em></h1>
         <p class="hero-sub">
           Trygg Tallrik hjälper dig hitta restauranger som tar dina allergier på allvar — ärligt rapporterat av restauranggästerna själv.
@@ -94,19 +111,19 @@
       <figure class="tour-item">
         <div class="phone-frame tour-phone">
           <div class="phone-screen">
-            <img src="assets/images/screen-search-map.png" alt="Skärmbild: sök restauranger på karta med markerade platser" width="720" height="1429" loading="lazy">
+            <img src="assets/images/screen-allergies.png" alt="Skärmbild: profilsida där användaren väljer sina allergier och intoleranser" width="720" height="1429" loading="lazy">
           </div>
         </div>
-        <figcaption>Sök nära dig, på karta eller i lista</figcaption>
+        <figcaption>Ställ in din allergiprofil</figcaption>
       </figure>
 
       <figure class="tour-item">
         <div class="phone-frame tour-phone">
           <div class="phone-screen">
-            <img src="assets/images/screen-allergies.png" alt="Skärmbild: profilsida där användaren väljer sina allergier och intoleranser" width="720" height="1429" loading="lazy">
+            <img src="assets/images/screen-search-map.png" alt="Skärmbild: sök restauranger på karta med markerade platser" width="720" height="1429" loading="lazy">
           </div>
         </div>
-        <figcaption>Ställ in din allergiprofil</figcaption>
+        <figcaption>Sök nära dig, på karta eller i lista</figcaption>
       </figure>
 
       <figure class="tour-item">
@@ -198,6 +215,81 @@
   </div>
 </section>
 
+<!-- ── ABOUT ────────────────────────────────────────────── -->
+<section id="about" aria-labelledby="about-heading">
+  <div class="container">
+    <span class="section-label" aria-hidden="true">Om oss</span>
+    <h2 id="about-heading">Varför Trygg Tallrik finns</h2>
+    <p class="about-lead">Att äta ute med en allergi eller intolerans handlar ofta om gissningar — generella recensioner säger sällan något om just din allergi hanteras väl.</p>
+    <p class="about-body">Trygg Tallrik byggdes för att vända på det. Istället för anonyma stjärnbetyg samlar vi omdömen från gäster som själva lever med allergier och intoleranser, så att du kan se hur en restaurang faktiskt hanterat just din typ av allergi — inte bara hur maten smakade.</p>
+    <p class="about-body">Vi är ett litet, svenskt team som tror att fler ska kunna äta ute utan oro. Appen är under ständig utveckling, och varje recension som läggs till gör nästa besök tryggare för någon annan.</p>
+
+    <div class="about-values">
+      <div class="about-value">
+        <span class="value-icon" aria-hidden="true">✓</span>
+        <h3>Ärliga omdömen</h3>
+        <p>Recensioner kommer från riktiga gäster med egen erfarenhet — inte från restaurangerna själva.</p>
+      </div>
+      <div class="about-value">
+        <span class="value-icon" aria-hidden="true">◈</span>
+        <h3>Byggt för din allergi</h3>
+        <p>Betyg filtreras efter dina allergener, så du slipper leta efter det som faktiskt är relevant.</p>
+      </div>
+      <div class="about-value">
+        <span class="value-icon" aria-hidden="true">○</span>
+        <h3>Din integritet</h3>
+        <p>Din allergiprofil är din egen. Vi säljer aldrig dina uppgifter — läs mer i vår <a href="privacy.html">integritetspolicy</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FAQ ──────────────────────────────────────────────── -->
+<section id="faq" aria-labelledby="faq-heading">
+  <div class="container">
+    <span class="section-label" aria-hidden="true">Vanliga frågor</span>
+    <h2 id="faq-heading">Bra att veta innan du börjar</h2>
+    <div class="faq-list">
+
+      <details class="faq-item">
+        <summary>Hur verifieras betygen?</summary>
+        <p>Allergibetygen bygger på recensioner från användare som angett samma allergi eller intolerans som du. Vi verifierar inte varje enskild recension mot restaurangen, men granskar rapporterat innehåll som bryter mot våra riktlinjer. Betygen är en indikation baserad på andra gästers upplevelser — inte en garanti.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>Är Trygg Tallrik en garanti för att maten är säker?</summary>
+        <p>Nej. Appen är ett hjälpmedel för att hitta restauranger som andra med liknande allergi haft en bra upplevelse hos — inte en garanti för att en specifik maträtt är säker för dig. Fråga alltid restaurangens personal om innehåll och tillagning innan du beställer, särskilt vid allvarlig allergi.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>Vad gör jag om en restaurang har fel information i appen?</summary>
+        <p>Hör av dig till oss på <a href="mailto:hej@tryggtallrik.se">hej@tryggtallrik.se</a> så uppdaterar eller markerar vi informationen. Du kan även lämna en recension som beskriver vad som stämmer eller inte, så att andra användare får en aktuell bild.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>Vilka allergener och intoleranser stöds?</summary>
+        <p>Du kan bland annat välja gluten, mjölk, ägg, fisk, skaldjur, blötdjur, jordnötter, trädnötter, sesam, senap, selleri, lupin och sulfiter i din allergiprofil — samma allergener som EU:s lista över deklarationspliktiga allergener.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>Vad kostar appen?</summary>
+        <p>Trygg Tallrik är gratis att ladda ner och testa med 20 sökningar per månad. Vill du söka mer finns Bas (19 kr/månad, 40 sökningar) och Premium (49 kr/månad, 300 sökningar). Full prisinformation finns i våra <a href="terms.html">användarvillkor</a>.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>Hur säger jag upp min prenumeration?</summary>
+        <p>Prenumerationer hanteras via App Store eller Google Play — säg upp den i inställningarna för ditt Apple-ID respektive Google-konto, senast 24 timmar innan nästa betalperiod börjar.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>Vilka enheter fungerar appen på?</summary>
+        <p>Trygg Tallrik finns till iPhone (iOS) och Android-telefoner. Ladda ner den via App Store eller Google Play.</p>
+      </details>
+
+    </div>
+  </div>
+</section>
+
 <!-- ── REVIEWS ──────────────────────────────────────────── -->
  <!-- Hide the reviewds until we have some to show -->
 <!-- <section id="reviews" aria-labelledby="reviews-heading">
@@ -270,8 +362,9 @@
 <!-- ── CTA ──────────────────────────────────────────────── -->
 <section id="cta" aria-labelledby="cta-heading">
   <div class="container">
+    <span class="cta-eyebrow">Lanseras snart</span>
     <h2 id="cta-heading">Redo att äta ute tryggt?</h2>
-    <p>Ladda ner appen gratis och sök bland tusentals restauranger nära dig redan idag.</p>
+    <p>Trygg Tallrik är på väg — bli en av de första att ladda ner appen när vi lanserar.</p>
     <div class="cta-actions">
       <a href="#" class="btn btn-light" role="button" aria-label="Ladda ner Trygg Tallrik för iOS i App Store">
         <img src="assets/icons/cta-ios.svg" width="18" height="18" alt="" aria-hidden="true">
@@ -307,7 +400,11 @@
         <span class="footer-tagline">— gjort i Sverige · ärlig mat —</span>
       </div>
       <div class="footer-right">
-        <a href="https://tryggtallrik.se" class="footer-link" rel="noopener">tryggtallrik.se</a>
+        <nav class="footer-legal" aria-label="Juridiskt">
+          <a href="privacy.html" class="footer-link">Integritetspolicy</a>
+          <a href="terms.html" class="footer-link">Användarvillkor</a>
+          <a href="mailto:hej@tryggtallrik.se" class="footer-link">Kontakt</a>
+        </nav>
         <p class="footer-copy">© 2025 Trygg Tallrik</p>
       </div>
     </div>
