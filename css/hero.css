@@ -3,7 +3,7 @@
   background: var(--bg);
   overflow: hidden;
   padding-top: clamp(60px, 10vw, 120px);
-  padding-bottom: 0;
+  padding-bottom: clamp(80px, 10vw, 140px);
 }
 .hero-inner {
   display: grid;
@@ -15,22 +15,22 @@
 .hero-eyebrow {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
   font-family: 'DM Sans', sans-serif;
-  font-size: 12px;
-  font-weight: 500;
+  font-size: 24px;
+  font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--tomato);
   background: rgba(230,80,42,0.1);
   border-radius: var(--r-pill);
-  padding: 8px 16px;
+  padding: 12px 22px;
   margin-bottom: 24px;
 }
 .hero-eyebrow::before {
   content: '';
-  width: 7px;
-  height: 7px;
+  width: 9px;
+  height: 9px;
   border-radius: 50%;
   background: var(--tomato);
   flex-shrink: 0;
