@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Instruktioner — Trygg Tallrik</title>
+  <meta name="description" content="Så använder du Trygg Tallrik: skapa konto, ställ in din allergiprofil, sök restauranger och lämna recensioner." />
+  <meta property="og:title" content="Instruktioner — Trygg Tallrik" />
+  <meta property="og:description" content="Steg för steg genom appens skärmar: från kontot och allergiprofilen till sökning och recensioner." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://tryggtallrik.se/instructions.html" />
+  <meta property="og:image" content="https://tryggtallrik.se/assets/images/og-image.png" />
+  <meta property="og:locale" content="sv_SE" />
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/buttons.css">
+  <link rel="stylesheet" href="css/hero.css">
+  <link rel="stylesheet" href="css/instructions.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+<!-- ── NAV ─────────────────────────────────────────────── -->
+<header>
+  <nav class="container">
+    <a href="/" class="brand-logo" aria-label="Trygg Tallrik — startsida">
+      <span class="brand-logo__mark" aria-hidden="true">
+        <svg viewBox="0 0 64 64" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="var(--brand-stroke)">
+          <path d="M6 14v8M9 14v8M12 14v8" stroke-width="1.8" opacity="0.73" />
+          <path d="M9 22v28" stroke-width="2.6" opacity="0.73" />
+          <path d="M55 14c3.1 1 4.7 4.4 4.7 9s-1.6 8-4.7 8z" fill="var(--brand-stroke)" opacity="0.73" />
+          <path d="M55 31v19" stroke-width="2.6" opacity="0.73" />
+          <circle cx="32" cy="32" r="15" stroke-width="3" opacity="0.55" />
+          <path class="check" d="M25 33l4.5 4.5L40 25" stroke="var(--brand-check)" stroke-width="5" />
+        </svg>
+      </span>
+      <span class="brand-logo__wordmark">Trygg <em>Tallrik</em></span>
+    </a>
+    <div class="nav-cta">
+      <a href="index.html#cta" class="btn btn-primary" aria-label="Ladda ner appen">Ladda ner appen</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <div class="container">
+    <div class="guide-header">
+      <a href="/" class="guide-back">&larr; Tillbaka till startsidan</a>
+      <h1>Så använder du <em>Trygg Tallrik</em></h1>
+      <p class="guide-intro">En genomgång av appens skärmar — vad de gör och hur du använder dem, från att skapa konto till att lämna din första recension.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <nav class="guide-toc" aria-label="Innehåll">
+      <ol>
+        <li><a href="#valkomst">Välkomstskärmen</a></li>
+        <li><a href="#skapa-konto">Skapa konto</a></li>
+        <li><a href="#logga-in">Logga in</a></li>
+        <li><a href="#hem">Hemskärmen</a></li>
+        <li><a href="#sok">Sök restaurang</a></li>
+        <li><a href="#restaurang">Restaurangsidan</a></li>
+        <li><a href="#recension">Lämna recension</a></li>
+        <li><a href="#mina-recensioner">Mina recensioner</a></li>
+        <li><a href="#mina-allergier">Mina allergier</a></li>
+        <li><a href="#konto">Kontoinställningar</a></li>
+        <li><a href="#allergibetyg">Så räknas allergibetyget</a></li>
+      </ol>
+    </nav>
+  </div>
+
+  <div class="container">
+
+    <!-- 1 -->
+    <section id="valkomst" class="guide-step" aria-labelledby="h-valkomst">
+      <div class="guide-text">
+        <span class="guide-num" aria-hidden="true">01</span>
+        <h2 id="h-valkomst">Välkomstskärmen</h2>
+        <p>Det första du ser när du öppnar appen utan att vara inloggad. Här får du en kort presentation av appen och dess tre huvudfunktioner: att söka restauranger, se hur de hanterar allergier och läsa gästrecensioner.</p>
+        <p>Här finns två knappar:</p>
+        <ul>
+          <li><strong>Skapa konto</strong> tar dig till registreringen.</li>
+          <li><strong>Logga in</strong> tar dig till inloggningen.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 2 -->
+    <section id="skapa-konto" class="guide-step" aria-labelledby="h-skapa-konto">
+      <div class="guide-text">
+        <span class="guide-num" aria-hidden="true">02</span>
+        <h2 id="h-skapa-konto">Skapa konto</h2>
+        <p>Formuläret har tre fält:</p>
+        <ul>
+          <li><strong>Ditt namn</strong> är visningsnamnet som syns i appen, till exempel i hälsningen på hemskärmen och som initial i din avatar.</li>
+          <li><strong>E-postadress</strong></li>
+          <li><strong>Lösenord</strong> ska vara minst 8 tecken. En styrkemätare visar Svag, Medel eller Stark medan du skriver.</li>
+        </ul>
+        <p>När du registrerar dig skapas kontot och du ser bekräftelsen ”Konto skapat!”. Därefter skickas du till inloggningen — du blir alltså inte automatiskt inloggad efter registreringen.</p>
+      </div>
+    </section>
+
+    <!-- 3 -->
+    <section id="logga-in" class="guide-step" aria-labelledby="h-logga-in">
+      <div class="guide-text">
+        <span class="guide-num" aria-hidden="true">03</span>
+        <h2 id="h-logga-in">Logga in</h2>
+        <p>Fyll i din e-postadress och ditt lösenord. Om något går fel visas ett felmeddelande, till exempel vid fel lösenord eller om du inte har bekräftat din e-postadress. När inloggningen lyckas kommer du till hemskärmen.</p>
+      </div>
+    </section>
+
+    <!-- 4 -->
+    <section id="hem" class="guide-step" aria-labelledby="h-hem">
+      <div class="guide-text">
+        <span class="guide-num" aria-hidden="true">04</span>
+        <h2 id="h-hem">Hemskärmen</h2>
+        <p>Startsidan efter inloggning. Den innehåller:</p>
+        <ul>
+          <li>en hälsning med ditt namn</li>
+          <li>en rad med <strong>”Säker från:”</strong>-taggar som visar de allergener du valt i din profil (visas bara om du har valt några)</li>
+          <li>fyra rutor att navigera från:
+            <ul>
+              <li><strong>Sök restaurang</strong> tar dig till sökskärmen.</li>
+              <li><strong>Lämna recension</strong> tar dig till recensionsskärmen.</li>
+              <li><strong>Mina recensioner</strong> visar historik över dina egna recensioner.</li>
+              <li><strong>Mina allergier</strong> tar dig till din allergiprofil.</li>
+            </ul>
+          </li>
+        </ul>
+        <p>Överst på alla huvudskärmar finns en avatar med din initial uppe till höger. Ett tryck på den tar dig direkt till <a href="#konto">kontoinställningarna</a>.</p>
+      </div>
+      <div class="guide-shots">
+        <figure class="guide-shot">
+          <div class="phone-frame">
+            <div class="phone-screen">
+              <img src="assets/images/screen-home.png" alt="Skärmbild: hemskärmen med hälsning, allergitaggar och fyra rutor för att söka restaurang, lämna recension, se egna recensioner och hantera allergier" width="720" height="1429" loading="lazy">
+            </div>
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 5 -->
+    <section id="sok" class="guide-step" aria-labelledby="h-sok">
+      <div class="guide-text">
+        <span class="guide-num" aria-hidden="true">05</span>
+        <h2 id="h-sok">Sök restaurang</h2>
+        <p>Sökningen använder Google Places och begränsas till en radie på 1,5 km från din plats, så appen behöver få platsbehörighet.</p>
+        <ul>
+          <li>Skriv ett sökord — restaurangnamn, kök eller maträtt — och tryck <strong>Sök</strong>.</li>
+          <li>Växla mellan <strong>Karta</strong> och <strong>Lista</strong> med knapparna högst upp.</li>
+          <li>I kartvyn visas restaurangerna som markörer. Tryck på en markör och sedan på texten i bubblan för att öppna restaurangsidan.</li>
+          <li>I listvyn visas namn, Googles betyg och appens eget <strong>allergibetyg</strong> i en tabell. Tryck på en rad för att öppna restaurangsidan.</li>
+        </ul>
+        <p>Allergibetyget i listan är <strong>personligt</strong>: det räknas bara ut från recensioner skrivna av andra användare som delar <em>alla</em> dina allergener — se <a href="#allergibetyg">så räknas allergibetyget</a>. Har du inga allergener valda visas i stället snittet av alla recensioner. Träffar med ett allergibetyg sorteras överst.</p>
+        <p>Hur många sökningar du kan göra per månad beror på din prenumerationsnivå, se <a href="terms.html">användarvillkoren</a>.</p>
+      </div>
+      <div class="guide-shots">
+        <figure class="guide-shot">
+          <div class="phone-frame">
+            <div class="phone-screen">
+              <img src="assets/images/screen-search-map.png" alt="Skärmbild: sökskärmen i kartvy med restauranger markerade på kartan" width="720" height="1429" loading="lazy">
+            </div>
+          </div>
+          <figcaption>Kartvy</figcaption>
+        </figure>
+        <figure class="guide-shot">
+          <div class="phone-frame">
+            <div class="phone-screen">
+              <img src="assets/images/screen-search-list.png" alt="Skärmbild: sökskärmen i listvy med restaurangnamn och allergibetyg" width="720" height="1429" loading="lazy">
+            </div>
+          </div>
+          <figcaption>Listvy</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 6 -->
+    <section id="restaurang" class="guide-step" aria-labelledby="h-restaurang">
+      <div class="guide-text">
+        <span class="guide-num" aria-hidden="true">06</span>
+        <h2 id="h-restaurang">Restaurangsidan</h2>
+        <p>Öppnas från sök- eller kartresultat. Den visar:</p>
+        <ul>
+          <li>restaurangens namn och adress</li>
+          <li>tre badges: Googles betyg, Trygg Tallriks totala snitt (alla recensioner, oviktat) och antal recensioner</li>
+          <li>knappen <strong>Lämna recension</strong>, som tar dig vidare till recensionsformuläret med restaurangen redan ifylld</li>
+          <li><strong>Betyg per allergen</strong> — ett snitt för varje allergen som förekommer i restaurangens recensioner, oavsett vem som skrivit dem. Dina egna allergener är färgmarkerade så att de syns extra tydligt.</li>
+          <li>en lista med samtliga recensioner: betyg, datum, allergentaggar och eventuell kommentar</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 7 -->
+    <section id="recension" class="guide-step" aria-labelledby="h-recension">
+      <div class="guide-text">
+        <span class="guide-num" aria-hidden="true">07</span>
+        <h2 id="h-recension">Lämna recension</h2>
+        <p>Du når recensionsformuläret antingen via rutan på hemskärmen eller via ”Lämna recension” på en restaurangsida.</p>
+        <ol>
+          <li><strong>Sök restaurang.</strong> Skriv minst två tecken för att få förslag från Google Places och tryck på ett förslag för att välja restaurangen. Kommer du från en restaurangsida är detta redan ifyllt.</li>
+          <li><strong>Välj betygsläge.</strong> Det finns två:
+            <ul>
+              <li><strong>Enkel:</strong> ett samlat betyg på 1–5 stjärnor för hela besöket.</li>
+              <li><strong>Avancerad:</strong> ett separat betyg på 1–5 för var och en av de allergener du själv har i din profil. Det kräver att du lagt in allergener under <a href="#mina-allergier">Mina allergier</a>, annars visas en text om det. Slutbetyget som sparas är genomsnittet av de allergenbetyg du satt.</li>
+            </ul>
+          </li>
+          <li><strong>Kommentar</strong> (valfritt) — skriv vad du vill i fritext.</li>
+          <li><strong>Lägg till recension</strong> sparar recensionen. Den taggas automatiskt med de allergener du har i din profil, och det är de taggarna som används i allergibetygen på sök- och restaurangsidorna.</li>
+        </ol>
+      </div>
+      <div class="guide-shots">
+        <figure class="guide-shot">
+          <div class="phone-frame">
+            <div class="phone-screen">
+              <img src="assets/images/screen-review-search.png" alt="Skärmbild: recensionsskärmen där en restaurang söks fram och ett förslag visas" width="720" height="1429" loading="lazy">
+            </div>
+          </div>
+          <figcaption>Välj restaurang</figcaption>
+        </figure>
+        <figure class="guide-shot">
+          <div class="phone-frame">
+            <div class="phone-screen">
+              <img src="assets/images/screen-review-form.png" alt="Skärmbild: formulär med stjärnbetyg, kommentarsfält och knappen Lägg till recension" width="720" height="1429" loading="lazy">
+            </div>
+          </div>
+          <figcaption>Betyg och kommentar</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 8 -->
+    <section id="mina-recensioner" class="guide-step" aria-labelledby="h-mina-recensioner">
+      <div class="guide-text">
+        <span class="guide-num" aria-hidden="true">08</span>
+        <h2 id="h-mina-recensioner">Mina recensioner</h2>
+        <p>En lista över alla recensioner du själv har skrivit, med den nyaste först: restaurangnamn, adress, betyg, eventuell kommentar och datum. Är listan tom uppmanas du att lägga till din första recension via startsidan.</p>
+      </div>
+      <div class="guide-shots">
+        <figure class="guide-shot">
+          <div class="phone-frame">
+            <div class="phone-screen">
+              <img src="assets/images/screen-my-reviews.png" alt="Skärmbild: lista över användarens egna recensioner med restaurang, betyg och datum" width="720" height="1429" loading="lazy">
+            </div>
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 9 -->
+    <section id="mina-allergier" class="guide-step" aria-labelledby="h-mina-allergier">
+      <div class="guide-text">
+        <span class="guide-num" aria-hidden="true">09</span>
+        <h2 id="h-mina-allergier">Mina allergier</h2>
+        <p>Här väljer du vilka allergener och intoleranser som gäller dig. Varje allergen visas som en tryckbar pill med en kort förklarande text bredvid. Valda allergener markeras, och antalet visas som ”X av Y valda”. Tryck på <strong>Spara allergier</strong> för att spara.</p>
+        <p>Ditt val styr:</p>
+        <ul>
+          <li>vilka allergener dina egna recensioner taggas med (se <a href="#recension">Lämna recension</a>)</li>
+          <li>vilket allergibetyg du ser i sökresultaten (se <a href="#allergibetyg">så räknas allergibetyget</a>)</li>
+          <li>vilka allergener som markeras som dina på restaurangsidan</li>
+        </ul>
+      </div>
+      <div class="guide-shots">
+        <figure class="guide-shot">
+          <div class="phone-frame">
+            <div class="phone-screen">
+              <img src="assets/images/screen-allergies.png" alt="Skärmbild: profilsida med allergener som tryckbara knappar och en förklarande text bredvid varje" width="720" height="1429" loading="lazy">
+            </div>
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 10 -->
+    <section id="konto" class="guide-step" aria-labelledby="h-konto">
+      <div class="guide-text">
+        <span class="guide-num" aria-hidden="true">10</span>
+        <h2 id="h-konto">Kontoinställningar</h2>
+        <p>Du når inställningarna via avataren uppe till höger på valfri huvudskärm.</p>
+        <ul>
+          <li><strong>Användarnamn</strong> — byt ditt visningsnamn.</li>
+          <li><strong>E-postadress</strong> — ett byte måste bekräftas via mejl innan det aktiveras.</li>
+          <li><strong>Support &amp; feedback</strong> — en länk till tryggtallrik.se.</li>
+          <li><strong>Logga ut</strong></li>
+          <li><strong>Radera konto</strong> — kräver tre steg:
+            <ol>
+              <li>Tryck på ”Radera mitt konto” för att öppna panelen.</li>
+              <li>Bocka i att du förstår att det inte går att ångra.</li>
+              <li>Tryck på ”Radera mitt konto permanent” och bekräfta i dialogrutan som visas.</li>
+            </ol>
+          </li>
+        </ul>
+        <p>Kontot och all din personliga data raderas permanent. Dina tidigare recensioner finns kvar men blir anonyma, eftersom kopplingen till din profil tas bort. Läs mer i <a href="privacy.html">integritetspolicyn</a>.</p>
+      </div>
+    </section>
+
+    <!-- 11 -->
+    <section id="allergibetyg" class="guide-step" aria-labelledby="h-allergibetyg">
+      <div class="guide-text">
+        <span class="guide-num" aria-hidden="true">11</span>
+        <h2 id="h-allergibetyg">Så räknas allergibetyget</h2>
+        <p>Appen använder två olika beräkningar, beroende på var du tittar.</p>
+        <div class="guide-calc">
+          <div class="guide-calc-card">
+            <h3>I sökresultaten</h3>
+            <p>Du ser ett personligt betyg. Bara recensioner från andra användare vars allergiprofil täcker <em>alla</em> dina egna allergener räknas med. Har du valt gluten och laktos räknas alltså bara recensioner från personer som har minst gluten <em>och</em> laktos i sin profil. Har du inga allergener valda visas i stället snittet av alla recensioner för restaurangen.</p>
+          </div>
+          <div class="guide-calc-card">
+            <h3>På restaurangsidan</h3>
+            <p>Du ser ett separat snitt för <em>varje</em> allergen som förekommer bland restaurangens recensioner, oavsett vem som skrivit dem. Så kan du se hur restaurangen bedöms specifikt för till exempel nötallergi respektive laktosintolerans.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <div class="container">
+    <div class="guide-help">
+      <p>Hittar du inte det du söker? Skriv till oss på <a href="mailto:hej@tryggtallrik.se">hej@tryggtallrik.se</a>.</p>
+    </div>
+  </div>
+</main>
+
+<!-- ── FOOTER ───────────────────────────────────────────── -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-left">
+        <a href="/" class="brand-logo" aria-label="Trygg Tallrik">
+          <span class="brand-logo__mark" aria-hidden="true">
+            <svg viewBox="0 0 64 64" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="var(--brand-stroke)">
+              <path d="M6 14v8M9 14v8M12 14v8" stroke-width="1.8" opacity="0.73" />
+              <path d="M9 22v28" stroke-width="2.6" opacity="0.73" />
+              <path d="M55 14c3.1 1 4.7 4.4 4.7 9s-1.6 8-4.7 8z" fill="var(--brand-stroke)" opacity="0.73" />
+              <path d="M55 31v19" stroke-width="2.6" opacity="0.73" />
+              <circle cx="32" cy="32" r="15" stroke-width="3" opacity="0.55" />
+              <path class="check" d="M25 33l4.5 4.5L40 25" stroke="var(--brand-check)" stroke-width="5" />
+            </svg>
+          </span>
+          <span class="brand-logo__wordmark">Trygg <em>Tallrik</em></span>
+        </a>
+        <span class="footer-tagline">— gjort i Sverige · ärlig mat —</span>
+      </div>
+      <div class="footer-right">
+        <nav class="footer-legal" aria-label="Länkar">
+          <a href="instructions.html" class="footer-link">Instruktioner</a>
+          <a href="privacy.html" class="footer-link">Integritetspolicy</a>
+          <a href="terms.html" class="footer-link">Användarvillkor</a>
+          <a href="mailto:hej@tryggtallrik.se" class="footer-link">Kontakt</a>
+        </nav>
+        <p class="footer-copy">© 2025 Trygg Tallrik</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
